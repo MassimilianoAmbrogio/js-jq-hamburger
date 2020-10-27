@@ -3,15 +3,16 @@
  */
 
 // Parte JS e jQuery
-var hamburger = $('.header-right > a');
-var menu = $('.header-right > ul');
+var hamburgerIcon = $('.header-right > a');
+var menu = $('.hamburger-menu');
+var closeIcon = $('.hamburger-menu .close');
 
 // Compare menu
-hamburger.dblclick(function () {
-    menu.fadeIn(300);
+hamburgerIcon.click(function () {
+    menu.addClass('active');
 });
 
 // Scompare menu
-hamburger.click(function() {
-    menu.fadeOut();
+closeIcon.click(function() {
+    menu.removeClass('active');
 });
