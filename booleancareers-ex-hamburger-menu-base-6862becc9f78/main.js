@@ -1,5 +1,5 @@
 /**
- * Mostrare / nascondere il menu principale
+ * Menu hamburger
  */
 
 // Parte JS e jQuery
